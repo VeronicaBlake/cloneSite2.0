@@ -1,0 +1,31 @@
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #0a3a15;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+.mainImage {
+  background-size: cover;
+  background-image: url(laughingPeople.jpg);
+  background-position: 50% 60%;
+  text-shadow: 1px 1px 15px var(--dark);
+  min-height: 30vw;
+  color: var(--light);
+}
+
+.GFGreen {
+  color: #0f531f;
+}
+
+.title {
+  font-size: 40pt;
+}
+
+.mainButton {
+  border-radius: 40px;
+}
